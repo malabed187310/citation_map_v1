@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f456c7b23cb306af508c26d2b7cdab34 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f456c7b23cb306af508c26d2b7cdab34" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f456c7b23cb306af508c26d2b7cdab34 = L.map(
+                "map_f456c7b23cb306af508c26d2b7cdab34",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_10788a5865b7f47835b47d61b9ffc868 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f456c7b23cb306af508c26d2b7cdab34);
+        
+    
+            var marker_cluster_4a528578d489448ff7a7c55957403d86 = L.markerClusterGroup(
+                {}
+            );
+            map_f456c7b23cb306af508c26d2b7cdab34.addLayer(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+            var marker_8dd0fea410bfaa40247715b68e2532ff = L.marker(
+                [43.8563105, 18.395895],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_03c687b78e18ce15b9ec0b3845e590fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75b27f526f0527bbb80d340a324211ee = $(`<div id="html_75b27f526f0527bbb80d340a324211ee" style="width: 100.0%; height: 100.0%;">Title: Comprehensive review of trends in microgrid control, University: Senior Teaching assistant, University of Sarajevo</div>`)[0];
+                popup_03c687b78e18ce15b9ec0b3845e590fd.setContent(html_75b27f526f0527bbb80d340a324211ee);
+            
+        
+
+        marker_8dd0fea410bfaa40247715b68e2532ff.bindPopup(popup_03c687b78e18ce15b9ec0b3845e590fd)
+        ;
+
+        
+    
+    
+            var marker_3b798169363975e80cbcaac079bd3863 = L.marker(
+                [30.5130043, 114.4202756],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_83d69d9e0292c2814fed5970d770a45d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_645a9326337a42d65d1830c489ef58a3 = $(`<div id="html_645a9326337a42d65d1830c489ef58a3" style="width: 100.0%; height: 100.0%;">Title: Distributed resilient control against denial of service attacks in DC microgrids with constant power load, University: Huazhong University of Science and Technology</div>`)[0];
+                popup_83d69d9e0292c2814fed5970d770a45d.setContent(html_645a9326337a42d65d1830c489ef58a3);
+            
+        
+
+        marker_3b798169363975e80cbcaac079bd3863.bindPopup(popup_83d69d9e0292c2814fed5970d770a45d)
+        ;
+
+        
+    
+    
+            var marker_3d3d55d732d5cff75950497f9318f5ab = L.marker(
+                [34.808071, 113.53581],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_387f0ea07f71ada2467b010bf93681c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e138f01aaaae2e26946d96c1d4091297 = $(`<div id="html_e138f01aaaae2e26946d96c1d4091297" style="width: 100.0%; height: 100.0%;">Title: Multi-time scale dynamic robust optimal scheduling of CCHP microgrid based on rolling optimization, University: Zhengzhou University</div>`)[0];
+                popup_387f0ea07f71ada2467b010bf93681c5.setContent(html_e138f01aaaae2e26946d96c1d4091297);
+            
+        
+
+        marker_3d3d55d732d5cff75950497f9318f5ab.bindPopup(popup_387f0ea07f71ada2467b010bf93681c5)
+        ;
+
+        
+    
+    
+            var marker_1b8ed79f100754658ccbddbcfeb49fe3 = L.marker(
+                [55.7855742, 12.521381],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_a30b81e9380eb66529eb1bccbb89948f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3b7bb03ea6aea626431e44dfc43af86 = $(`<div id="html_c3b7bb03ea6aea626431e44dfc43af86" style="width: 100.0%; height: 100.0%;">Title: Enhancing resilience of DC microgrids with model predictive control based hybrid energy storage system, University: Senior researcher, Technical University of Denmark</div>`)[0];
+                popup_a30b81e9380eb66529eb1bccbb89948f.setContent(html_c3b7bb03ea6aea626431e44dfc43af86);
+            
+        
+
+        marker_1b8ed79f100754658ccbddbcfeb49fe3.bindPopup(popup_a30b81e9380eb66529eb1bccbb89948f)
+        ;
+
+        
+    
+    
+            var marker_9446397da40f46aa2b708582aac2b14b = L.marker(
+                [34.808071, 113.53581],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_dc0f9bda0c122e60ab74bb865bd14b80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b416dbb7f0c60204127fb6bc0c9bd7f = $(`<div id="html_2b416dbb7f0c60204127fb6bc0c9bd7f" style="width: 100.0%; height: 100.0%;">Title: Multi-time-scale energy management for microgrid using expected-scenario-oriented stochastic optimization, University: Zhengzhou University</div>`)[0];
+                popup_dc0f9bda0c122e60ab74bb865bd14b80.setContent(html_2b416dbb7f0c60204127fb6bc0c9bd7f);
+            
+        
+
+        marker_9446397da40f46aa2b708582aac2b14b.bindPopup(popup_dc0f9bda0c122e60ab74bb865bd14b80)
+        ;
+
+        
+    
+    
+            var marker_e76a33ccfa733ed2e364f9be6c48d787 = L.marker(
+                [13.1394523, 79.8723424],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_d1d987051283c0d49119e33eb42855f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c7a4f1d8533294a2325e285bdeeb143 = $(`<div id="html_2c7a4f1d8533294a2325e285bdeeb143" style="width: 100.0%; height: 100.0%;">Title: Storage and non-Storage Methods of Power balancing to counter Uncertainty in Hybrid Microgrids-A review, University: Sri Venkateswara College of Engineering and Technology</div>`)[0];
+                popup_d1d987051283c0d49119e33eb42855f8.setContent(html_2c7a4f1d8533294a2325e285bdeeb143);
+            
+        
+
+        marker_e76a33ccfa733ed2e364f9be6c48d787.bindPopup(popup_d1d987051283c0d49119e33eb42855f8)
+        ;
+
+        
+    
+    
+            var marker_d1b5a4d9c63424f4ab3ac59b7fe28e9e = L.marker(
+                [26.2516868, 127.7684078],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_8f8f1487c52bff851fc188f98e55fe4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d41375ae4e213bfb586dcfca2f58f50 = $(`<div id="html_2d41375ae4e213bfb586dcfca2f58f50" style="width: 100.0%; height: 100.0%;">Title: Application Strategies of Model Predictive Control for the Design and Operations of Renewable Energy-Based Microgrid: A Survey, University: University of the Ryukyus, Japan</div>`)[0];
+                popup_8f8f1487c52bff851fc188f98e55fe4b.setContent(html_2d41375ae4e213bfb586dcfca2f58f50);
+            
+        
+
+        marker_d1b5a4d9c63424f4ab3ac59b7fe28e9e.bindPopup(popup_8f8f1487c52bff851fc188f98e55fe4b)
+        ;
+
+        
+    
+    
+            var marker_82096b92e87fb110c16e62f43a557219 = L.marker(
+                [26.3070624, 50.1458938],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_34a9040fafefffcf79fae974fc6d131c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13ed59f441b5e4480a6ff2717424a7a4 = $(`<div id="html_13ed59f441b5e4480a6ff2717424a7a4" style="width: 100.0%; height: 100.0%;">Title: Global sliding-mode control with fractional-order terms for the robust optimal operation of a hybrid renewable microgrid with battery energy storage, University: King Fahd University of Petroleum and Minerals</div>`)[0];
+                popup_34a9040fafefffcf79fae974fc6d131c.setContent(html_13ed59f441b5e4480a6ff2717424a7a4);
+            
+        
+
+        marker_82096b92e87fb110c16e62f43a557219.bindPopup(popup_34a9040fafefffcf79fae974fc6d131c)
+        ;
+
+        
+    
+    
+            var marker_a731f0876d0ae2b1e8d9ef1bd5c6920f = L.marker(
+                [8.239754999999999, 124.244765],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_113b1fdfd5f371e86bb02b8ee9ec1f32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e79f0a5c315a2494ab068f044e18dce3 = $(`<div id="html_e79f0a5c315a2494ab068f044e18dce3" style="width: 100.0%; height: 100.0%;">Title: Optimization of hybrid renewable energy microgrid for rural agricultural area in Southern Philippines, University: Mindanao State University - Iligan Institute of Technology</div>`)[0];
+                popup_113b1fdfd5f371e86bb02b8ee9ec1f32.setContent(html_e79f0a5c315a2494ab068f044e18dce3);
+            
+        
+
+        marker_a731f0876d0ae2b1e8d9ef1bd5c6920f.bindPopup(popup_113b1fdfd5f371e86bb02b8ee9ec1f32)
+        ;
+
+        
+    
+    
+            var marker_76869458cec5137e38a87ab8d5119cb6 = L.marker(
+                [23.69781, 120.960515],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_74c24cd1a8f3ed149457a96f635c756b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e208735b9d181299097d4b9b07892ca = $(`<div id="html_7e208735b9d181299097d4b9b07892ca" style="width: 100.0%; height: 100.0%;">Title: Optimal DC microgrid operation with model predictive control-based voltage-dependent demand response and optimal battery dispatch, University: Ho Chi Minh University of Technology (HCMUT) - National Taiwan University of Science and Technology</div>`)[0];
+                popup_74c24cd1a8f3ed149457a96f635c756b.setContent(html_7e208735b9d181299097d4b9b07892ca);
+            
+        
+
+        marker_76869458cec5137e38a87ab8d5119cb6.bindPopup(popup_74c24cd1a8f3ed149457a96f635c756b)
+        ;
+
+        
+    
+    
+            var marker_2512d9a8ee9fec8d8b38e66bc31c0f16 = L.marker(
+                [-2.8865291, -78.9898791],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_0e4304f49feaca343dee24c56d6b8a04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aab7f821f78a497650c3209b423cc422 = $(`<div id="html_aab7f821f78a497650c3209b423cc422" style="width: 100.0%; height: 100.0%;">Title: Controller Coordination Strategy for DC Microgrid Using Distributed Predictive Control Improving Voltage Stability, University: Professor of Control Theory - Universidad Politécnica Salesiana Ecuador - Electrical Engineering</div>`)[0];
+                popup_0e4304f49feaca343dee24c56d6b8a04.setContent(html_aab7f821f78a497650c3209b423cc422);
+            
+        
+
+        marker_2512d9a8ee9fec8d8b38e66bc31c0f16.bindPopup(popup_0e4304f49feaca343dee24c56d6b8a04)
+        ;
+
+        
+    
+    
+            var marker_a1d86a32255036955a9d52b6ac4a9dae = L.marker(
+                [-19.035345, -65.2592128],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_a32bcedfd0749eefcb51f8fca838d5b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8d09ea2d04142c4c992cace072db626 = $(`<div id="html_e8d09ea2d04142c4c992cace072db626" style="width: 100.0%; height: 100.0%;">Title: Review on multi-objective control strategies for distributed generation on inverter-based microgrids, University: IST Sucre</div>`)[0];
+                popup_a32bcedfd0749eefcb51f8fca838d5b7.setContent(html_e8d09ea2d04142c4c992cace072db626);
+            
+        
+
+        marker_a1d86a32255036955a9d52b6ac4a9dae.bindPopup(popup_a32bcedfd0749eefcb51f8fca838d5b7)
+        ;
+
+        
+    
+    
+            var marker_0b519e1641ecbeda25212ac04fb29c88 = L.marker(
+                [38.52191980000001, -8.8386329],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_9cc065f0588ee06460e7ae94641e2ff2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29e37bfccabe1bd1ab6e84f2a1af9e13 = $(`<div id="html_29e37bfccabe1bd1ab6e84f2a1af9e13" style="width: 100.0%; height: 100.0%;">Title: Control transition mode from voltage control to MPPT for PV generators in isolated DC microgrids, University: Professor of Electrical Engineering, ESTSetubal, Polytechnic Institute of Setúbal</div>`)[0];
+                popup_9cc065f0588ee06460e7ae94641e2ff2.setContent(html_29e37bfccabe1bd1ab6e84f2a1af9e13);
+            
+        
+
+        marker_0b519e1641ecbeda25212ac04fb29c88.bindPopup(popup_9cc065f0588ee06460e7ae94641e2ff2)
+        ;
+
+        
+    
+    
+            var marker_987cdd49f82eb643ea8d97d121a10982 = L.marker(
+                [30.5160618, 114.4024568],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_3883698d89613327b3884cba5b3a19ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae8cd8d8d1b7a4d5dde1317c41f87bf5 = $(`<div id="html_ae8cd8d8d1b7a4d5dde1317c41f87bf5" style="width: 100.0%; height: 100.0%;">Title: Self-Triggered Model Predictive Control of AC Microgrids with Physical and Communication State Constraints, University: China University of Geosciences</div>`)[0];
+                popup_3883698d89613327b3884cba5b3a19ae.setContent(html_ae8cd8d8d1b7a4d5dde1317c41f87bf5);
+            
+        
+
+        marker_987cdd49f82eb643ea8d97d121a10982.bindPopup(popup_3883698d89613327b3884cba5b3a19ae)
+        ;
+
+        
+    
+    
+            var marker_1d71ab9e304643939a9b42f592c0b0aa = L.marker(
+                [23.9849979, 38.2024884],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_378a670186ef9f76d5997127b6fb466a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c74a53355bc2ab1b269cc2b5e24e135 = $(`<div id="html_4c74a53355bc2ab1b269cc2b5e24e135" style="width: 100.0%; height: 100.0%;">Title: Predictive control of PV/battery system under load and environmental uncertainty, University: Yanbu Industrial College</div>`)[0];
+                popup_378a670186ef9f76d5997127b6fb466a.setContent(html_4c74a53355bc2ab1b269cc2b5e24e135);
+            
+        
+
+        marker_1d71ab9e304643939a9b42f592c0b0aa.bindPopup(popup_378a670186ef9f76d5997127b6fb466a)
+        ;
+
+        
+    
+    
+            var marker_44db04f347917aa7bf3171a54ffb52d6 = L.marker(
+                [52.5125322, 13.3269446],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_961654410fdca54f3ce913dd01279c3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a25e175f2ac3c7d608908d00433035d7 = $(`<div id="html_a25e175f2ac3c7d608908d00433035d7" style="width: 100.0%; height: 100.0%;">Title: DC microgrid small-signal stability and control: Sufficient stability criterion and stabilizer design, University: Research scientist and Lecturer, Technische Universität Berlin</div>`)[0];
+                popup_961654410fdca54f3ce913dd01279c3a.setContent(html_a25e175f2ac3c7d608908d00433035d7);
+            
+        
+
+        marker_44db04f347917aa7bf3171a54ffb52d6.bindPopup(popup_961654410fdca54f3ce913dd01279c3a)
+        ;
+
+        
+    
+    
+            var marker_ea5d41c59b911c8d3f992cb37d2d34b1 = L.marker(
+                [-26.2041028, 28.0473051],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_26edf7e3043b8defd91b9b1a4aaa4c16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae705b7b33c77030e9d020f0466de473 = $(`<div id="html_ae705b7b33c77030e9d020f0466de473" style="width: 100.0%; height: 100.0%;">Title: Energy stored management of islanded distributed generations interconnected, University: Reseacher, University of Johannesburg</div>`)[0];
+                popup_26edf7e3043b8defd91b9b1a4aaa4c16.setContent(html_ae705b7b33c77030e9d020f0466de473);
+            
+        
+
+        marker_ea5d41c59b911c8d3f992cb37d2d34b1.bindPopup(popup_26edf7e3043b8defd91b9b1a4aaa4c16)
+        ;
+
+        
+    
+    
+            var marker_b42b20239a67c0c1ec8aa5fc532ef615 = L.marker(
+                [28.178915, 112.94395],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_1324b0fbe854ce5b35a244848712860d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39af3e8ddc7e40de534e0195a1f0a718 = $(`<div id="html_39af3e8ddc7e40de534e0195a1f0a718" style="width: 100.0%; height: 100.0%;">Title: Maximum production point tracking method for a solar-boosted biogas energy generation system, University: Hunan University</div>`)[0];
+                popup_1324b0fbe854ce5b35a244848712860d.setContent(html_39af3e8ddc7e40de534e0195a1f0a718);
+            
+        
+
+        marker_b42b20239a67c0c1ec8aa5fc532ef615.bindPopup(popup_1324b0fbe854ce5b35a244848712860d)
+        ;
+
+        
+    
+    
+            var marker_dbaa8aeb9fa6a69febbc2024af7600f7 = L.marker(
+                [39.085099, 117.199369],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_0aeb9dd1cc6649861e0e7e4df510dc7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_068c97935bc4f6a2600f8f30e4222af3 = $(`<div id="html_068c97935bc4f6a2600f8f30e4222af3" style="width: 100.0%; height: 100.0%;">Title: Grid-friendly energy prosumers based on the energy router with load switching functionality, University: Key Laboratory of Smart Grid of Ministry of Education of P.R. China, Tianjin University</div>`)[0];
+                popup_0aeb9dd1cc6649861e0e7e4df510dc7c.setContent(html_068c97935bc4f6a2600f8f30e4222af3);
+            
+        
+
+        marker_dbaa8aeb9fa6a69febbc2024af7600f7.bindPopup(popup_0aeb9dd1cc6649861e0e7e4df510dc7c)
+        ;
+
+        
+    
+    
+            var marker_bd430c28959e97a178ee26dfb059e4f0 = L.marker(
+                [34.808071, 113.53581],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_e0cf89689821c9377b49710278a670ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f0d2572401dcb5b3e697e2ec51bd9dc = $(`<div id="html_3f0d2572401dcb5b3e697e2ec51bd9dc" style="width: 100.0%; height: 100.0%;">Title: Multi-time scale energy management of microgrid considering the uncertainties in both supply and demand, University: Zhengzhou University</div>`)[0];
+                popup_e0cf89689821c9377b49710278a670ee.setContent(html_3f0d2572401dcb5b3e697e2ec51bd9dc);
+            
+        
+
+        marker_bd430c28959e97a178ee26dfb059e4f0.bindPopup(popup_e0cf89689821c9377b49710278a670ee)
+        ;
+
+        
+    
+    
+            var marker_8a3772f2c3afba7b822ce6a08043bf3a = L.marker(
+                [28.178915, 112.94395],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_9332a69a732963ac1314383b2633fff7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a2971a1639274ec34b94e645d996141 = $(`<div id="html_5a2971a1639274ec34b94e645d996141" style="width: 100.0%; height: 100.0%;">Title: Energy management of the grid-connected residential photovoltaic-battery system using model predictive control coupled with dynamic programming, University: Hunan University</div>`)[0];
+                popup_9332a69a732963ac1314383b2633fff7.setContent(html_5a2971a1639274ec34b94e645d996141);
+            
+        
+
+        marker_8a3772f2c3afba7b822ce6a08043bf3a.bindPopup(popup_9332a69a732963ac1314383b2633fff7)
+        ;
+
+        
+    
+    
+            var marker_1e9f870ab2be56b91eea226f39cf452e = L.marker(
+                [33.7155886, 73.0288246],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_b055735a8ebf16642c7be91d9e898fb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_949b2acbe90f3654aa2e82dadfb41e21 = $(`<div id="html_949b2acbe90f3654aa2e82dadfb41e21" style="width: 100.0%; height: 100.0%;">Title: Model predictive control of consensus-based energy management system for DC microgrid, University: Assistant Professor Electrical Engineering, Bahria University</div>`)[0];
+                popup_b055735a8ebf16642c7be91d9e898fb3.setContent(html_949b2acbe90f3654aa2e82dadfb41e21);
+            
+        
+
+        marker_1e9f870ab2be56b91eea226f39cf452e.bindPopup(popup_b055735a8ebf16642c7be91d9e898fb3)
+        ;
+
+        
+    
+    
+            var marker_8a5c28971ff7df27eeaafea0a4cdf562 = L.marker(
+                [54.9791871, -1.6146608],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_f6caf32d64dfff867f462665819e9b64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c526914721433027526018d2fe4d0d83 = $(`<div id="html_c526914721433027526018d2fe4d0d83" style="width: 100.0%; height: 100.0%;">Title: A Review of Microgrid Energy Management Strategies from the Energy Trilemma Perspective, University: Research Associate, Newcastle University</div>`)[0];
+                popup_f6caf32d64dfff867f462665819e9b64.setContent(html_c526914721433027526018d2fe4d0d83);
+            
+        
+
+        marker_8a5c28971ff7df27eeaafea0a4cdf562.bindPopup(popup_f6caf32d64dfff867f462665819e9b64)
+        ;
+
+        
+    
+    
+            var marker_fc5edd25596ea332ecd7e0010ad68db5 = L.marker(
+                [23.151326, 113.344683],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_62df9b981a137a5c2cb3827861367431 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7f9eacea9c76a16b89677a00233d1e9 = $(`<div id="html_f7f9eacea9c76a16b89677a00233d1e9" style="width: 100.0%; height: 100.0%;">Title: An expected-cost realization-probability optimization approach for the dynamic energy management of microgrid, University: South China University of Technology</div>`)[0];
+                popup_62df9b981a137a5c2cb3827861367431.setContent(html_f7f9eacea9c76a16b89677a00233d1e9);
+            
+        
+
+        marker_fc5edd25596ea332ecd7e0010ad68db5.bindPopup(popup_62df9b981a137a5c2cb3827861367431)
+        ;
+
+        
+    
+    
+            var marker_22c84c04e6935847ede9d4f84cb2af06 = L.marker(
+                [43.915886, 17.679076],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_94a2aa14ff6a8d18d99ad915719e51e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc03c3bfc686e8ad95c093450c422040 = $(`<div id="html_dc03c3bfc686e8ad95c093450c422040" style="width: 100.0%; height: 100.0%;">Title: Microgrid energy management: Classification, review and challenges, University: Head of the Department for Strategic Development, Public Electric Utility Elektroprivreda of Bosnia</div>`)[0];
+                popup_94a2aa14ff6a8d18d99ad915719e51e9.setContent(html_dc03c3bfc686e8ad95c093450c422040);
+            
+        
+
+        marker_22c84c04e6935847ede9d4f84cb2af06.bindPopup(popup_94a2aa14ff6a8d18d99ad915719e51e9)
+        ;
+
+        
+    
+    
+            var marker_7157e6d16cf338adf0756082881d0a52 = L.marker(
+                [30.375321, 69.34511599999999],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_19a696127f7d6724803bf498415b8d6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8bac55fd7436273c85b622695116e45 = $(`<div id="html_e8bac55fd7436273c85b622695116e45" style="width: 100.0%; height: 100.0%;">Title: Model Predictive Control Strategies in Microgrids: A Concise Revisit, University: Engineer at NTDC Pakistan</div>`)[0];
+                popup_19a696127f7d6724803bf498415b8d6f.setContent(html_e8bac55fd7436273c85b622695116e45);
+            
+        
+
+        marker_7157e6d16cf338adf0756082881d0a52.bindPopup(popup_19a696127f7d6724803bf498415b8d6f)
+        ;
+
+        
+    
+    
+            var marker_76485d0fd88dd38ec8db6352cacbf1d4 = L.marker(
+                [13.0557121, 80.1824329],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_eb5d652524a7b58ea5d33783c6471b21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a80120c4a0f3d2eb7bac9aff8ce0636d = $(`<div id="html_a80120c4a0f3d2eb7bac9aff8ce0636d" style="width: 100.0%; height: 100.0%;">Title: Power-Sharing Analysis of Hybrid Microgrid Using Iterative Learning Controller (ILC) considering Source and Load Variation, University: Assistant Professor, School of Electrical Engineering,VIT university Chennai campus</div>`)[0];
+                popup_eb5d652524a7b58ea5d33783c6471b21.setContent(html_a80120c4a0f3d2eb7bac9aff8ce0636d);
+            
+        
+
+        marker_76485d0fd88dd38ec8db6352cacbf1d4.bindPopup(popup_eb5d652524a7b58ea5d33783c6471b21)
+        ;
+
+        
+    
+    
+            var marker_dd1109b0c766212d67d43a0f21dffb0f = L.marker(
+                [55.0041996, -1.5716281],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_653e145c8d504b88975eed36bbe76dc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0da060a2e5650a5c51451adf4b8692a6 = $(`<div id="html_0da060a2e5650a5c51451adf4b8692a6" style="width: 100.0%; height: 100.0%;">Title: A Review of Microgrid Energy Management Strategies from the Energy Trilemma Perspective. Energies 2023, 16, x, University: Assistant Professor, Northumbria University</div>`)[0];
+                popup_653e145c8d504b88975eed36bbe76dc8.setContent(html_0da060a2e5650a5c51451adf4b8692a6);
+            
+        
+
+        marker_dd1109b0c766212d67d43a0f21dffb0f.bindPopup(popup_653e145c8d504b88975eed36bbe76dc8)
+        ;
+
+        
+    
+    
+            var marker_affe629240ca0abdcb223da33219e638 = L.marker(
+                [34.673407, -82.8367119],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_f20b88d983118e66ac06be24eaef5a13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c97877f571c3ecd3f9c9805cfff7b3b = $(`<div id="html_3c97877f571c3ecd3f9c9805cfff7b3b" style="width: 100.0%; height: 100.0%;">Title: A model predictive control approach to a water pumping system in an Australian cotton farm microgrid, University: Clemson University</div>`)[0];
+                popup_f20b88d983118e66ac06be24eaef5a13.setContent(html_3c97877f571c3ecd3f9c9805cfff7b3b);
+            
+        
+
+        marker_affe629240ca0abdcb223da33219e638.bindPopup(popup_f20b88d983118e66ac06be24eaef5a13)
+        ;
+
+        
+    
+    
+            var marker_485d45cfc34a224120871c4611482dff = L.marker(
+                [30.7649646, 76.7750066],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_bb4a672f14d7c204ac0a31a3a66c5c89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b5d9678409f23bb5639bc598330ce51 = $(`<div id="html_9b5d9678409f23bb5639bc598330ce51" style="width: 100.0%; height: 100.0%;">Title: Voltage Control of a Standalone PV Power System, University: Assistant Professor PGIMER, Chandigarh</div>`)[0];
+                popup_bb4a672f14d7c204ac0a31a3a66c5c89.setContent(html_9b5d9678409f23bb5639bc598330ce51);
+            
+        
+
+        marker_485d45cfc34a224120871c4611482dff.bindPopup(popup_bb4a672f14d7c204ac0a31a3a66c5c89)
+        ;
+
+        
+    
+    
+            var marker_deb6f36394776317a05ac241b7226c5d = L.marker(
+                [29.98682849999999, 31.4413458],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_f209bc97a45930198ee11373bff4f7a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18dce1b5adf1358fb018b318e2c50509 = $(`<div id="html_18dce1b5adf1358fb018b318e2c50509" style="width: 100.0%; height: 100.0%;">Title: Fault Ride-Through in Grid-Connected DC Microgrid to Improve Microgrid and Utility Grid Performance, University: German University in Cairo</div>`)[0];
+                popup_f209bc97a45930198ee11373bff4f7a9.setContent(html_18dce1b5adf1358fb018b318e2c50509);
+            
+        
+
+        marker_deb6f36394776317a05ac241b7226c5d.bindPopup(popup_f209bc97a45930198ee11373bff4f7a9)
+        ;
+
+        
+    
+    
+            var marker_f6e397f364111fb323d00a9cb7e3aa37 = L.marker(
+                [55.7855742, 12.521381],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_49ef139bf34dd3e2f0c974df4bb2e275 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a34b5265dce50c4ae121d67605acda73 = $(`<div id="html_a34b5265dce50c4ae121d67605acda73" style="width: 100.0%; height: 100.0%;">Title: A Model Predictive Control of SMES-Battery Hybrid Energy Storage System for Voltage Regulation in DC Microgrids, University: Technical University of Denmark</div>`)[0];
+                popup_49ef139bf34dd3e2f0c974df4bb2e275.setContent(html_a34b5265dce50c4ae121d67605acda73);
+            
+        
+
+        marker_f6e397f364111fb323d00a9cb7e3aa37.bindPopup(popup_49ef139bf34dd3e2f0c974df4bb2e275)
+        ;
+
+        
+    
+    
+            var marker_0d865409fd692ba3e52d63931324cb10 = L.marker(
+                [23.9849979, 38.2024884],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_ed8e547ba1de73106557739553b13dc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af20fc3b294def1a569135b0a7e7c1f0 = $(`<div id="html_af20fc3b294def1a569135b0a7e7c1f0" style="width: 100.0%; height: 100.0%;">Title: Performance Improvement of a Grid-connected Microgrid System Using Superconductive Fault Current Limiter, University: Yanbu Industrial College</div>`)[0];
+                popup_ed8e547ba1de73106557739553b13dc5.setContent(html_af20fc3b294def1a569135b0a7e7c1f0);
+            
+        
+
+        marker_0d865409fd692ba3e52d63931324cb10.bindPopup(popup_ed8e547ba1de73106557739553b13dc5)
+        ;
+
+        
+    
+    
+            var marker_e2f1ed985fd5bfb213099df2bef9a91b = L.marker(
+                [23.9849979, 38.2024884],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_b229b420643efc3cb5b63169438a9f87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_672ca6ea8d0d45bb19c26c5a577cf5e2 = $(`<div id="html_672ca6ea8d0d45bb19c26c5a577cf5e2" style="width: 100.0%; height: 100.0%;">Title: Predictive control of standalone DC microgrid with energy storage under load and environmental uncertainty, University: Yanbu Industrial College</div>`)[0];
+                popup_b229b420643efc3cb5b63169438a9f87.setContent(html_672ca6ea8d0d45bb19c26c5a577cf5e2);
+            
+        
+
+        marker_e2f1ed985fd5bfb213099df2bef9a91b.bindPopup(popup_b229b420643efc3cb5b63169438a9f87)
+        ;
+
+        
+    
+    
+            var marker_bab8e178117f3e537aeceeda1aeb7f34 = L.marker(
+                [-2.6154291, 29.7428526],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_f5091492da4a5d7730806e1ba78044ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9087ad8914bc2d31b3961870772f8eb8 = $(`<div id="html_9087ad8914bc2d31b3961870772f8eb8" style="width: 100.0%; height: 100.0%;">Title: Techno-economic analysis of a PV system with a battery energy storage system for small households: A case study in Rwanda, University: University of Rwanda</div>`)[0];
+                popup_f5091492da4a5d7730806e1ba78044ed.setContent(html_9087ad8914bc2d31b3961870772f8eb8);
+            
+        
+
+        marker_bab8e178117f3e537aeceeda1aeb7f34.bindPopup(popup_f5091492da4a5d7730806e1ba78044ed)
+        ;
+
+        
+    
+    
+            var marker_911f665e271f1190795f31116535afc8 = L.marker(
+                [39.3299013, -76.6205177],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_f8f9ed01cfc8dabd9c7867856a6aa40a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b43c69ac7b9764e99672da76cc58646 = $(`<div id="html_5b43c69ac7b9764e99672da76cc58646" style="width: 100.0%; height: 100.0%;">Title: Optimización del almacenamiento de energía en redes eléctricas, University: Johns Hopkins University</div>`)[0];
+                popup_f8f9ed01cfc8dabd9c7867856a6aa40a.setContent(html_5b43c69ac7b9764e99672da76cc58646);
+            
+        
+
+        marker_911f665e271f1190795f31116535afc8.bindPopup(popup_f8f9ed01cfc8dabd9c7867856a6aa40a)
+        ;
+
+        
+    
+    
+            var marker_e47c83563186aa3f9161d790e6bc3f38 = L.marker(
+                [28.5439106, 77.3331085],
+                {}
+            ).addTo(marker_cluster_4a528578d489448ff7a7c55957403d86);
+        
+    
+        var popup_0c40c010ee4be6fdbb6dd1e29eb982f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2c153865902c616f4e65c09cbd3d958 = $(`<div id="html_b2c153865902c616f4e65c09cbd3d958" style="width: 100.0%; height: 100.0%;">Title: Integration of Renewable Energy Sources in a Power Grid: A Review, University: Dayalbagh Educational Institute; Amity University</div>`)[0];
+                popup_0c40c010ee4be6fdbb6dd1e29eb982f9.setContent(html_b2c153865902c616f4e65c09cbd3d958);
+            
+        
+
+        marker_e47c83563186aa3f9161d790e6bc3f38.bindPopup(popup_0c40c010ee4be6fdbb6dd1e29eb982f9)
+        ;
+
+        
+    
+</script>
+</html>
